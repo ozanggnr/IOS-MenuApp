@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Garlic Butter Chicken",
+    "ingredients": "chicken breast | butter | garlic | salt | black pepper | parsley | lemon",
+    "servings": "2",
+    "instructions": "Season chicken with salt and pepper. Sear in butter until golden. Add garlic and cook 30 seconds. Spoon garlic butter over chicken and finish until cooked through. Add lemon juice and parsley before serving.",
+    "image": "https://plus.unsplash.com/premium_photo-1661331776510-918d0426d03d?q=80&w=2670&auto=format&fit=crop"
+  },
+  {
+    "title": "Creamy Mushroom Pasta",
+    "ingredients": "pasta | mushrooms | olive oil | garlic | cream | parmesan | salt | pepper",
+    "servings": "3",
+    "instructions": "Cook pasta until al dente. Sauté mushrooms in olive oil until browned. Add garlic, then cream and parmesan. Toss pasta with sauce and season to taste.",
+    "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?q=80&w=2594&auto=format&fit=crop"
+  },
+  {
+    "title": "Simple Avocado Toast",
+    "ingredients": "bread | avocado | lemon | salt | chili flakes",
+    "servings": "1",
+    "instructions": "Toast bread. Mash avocado with lemon and salt. Spread on toast and top with chili flakes.",
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=2680&auto=format&fit=crop"
+  },
+  {
+    "title": "Greek Salad Bowl",
+    "ingredients": "cucumber | tomato | feta | olives | red onion | olive oil | oregano | salt",
+    "servings": "2",
+    "instructions": "Chop vegetables. Toss with olive oil, oregano and salt. Top with feta and olives.",
+    "image": "https://images.unsplash.com/photo-1607532941433-304659e8198a?q=80&w=2578&auto=format&fit=crop"
+  },
+  {
+    "title": "Honey Lemon Tea",
+    "ingredients": "hot water | honey | lemon",
+    "servings": "1",
+    "instructions": "Pour hot water into a mug. Stir in honey and add lemon juice to taste.",
+    "image": "https://images.unsplash.com/photo-1594631252845-29fc4586c3d7?q=80&w=2574&auto=format&fit=crop"
+  },
+  {
+    "title": "Tuna Sandwich",
+    "ingredients": "tuna | mayonnaise | mustard | bread | lettuce | salt | pepper",
+    "servings": "1",
+    "instructions": "Mix tuna with mayo and mustard. Season. Assemble sandwich with lettuce.",
+    "image": "https://images.unsplash.com/photo-1540713434306-58fbb6c6eb3d?q=80&w=2574&auto=format&fit=crop"
+  },
+  {
+    "title": "Oven Roasted Potatoes",
+    "ingredients": "potatoes | olive oil | paprika | salt | pepper",
+    "servings": "4",
+    "instructions": "Preheat oven to 220°C. Cut potatoes into wedges. Toss with oil and spices. Roast 30-40 minutes, turning halfway.",
+    "image": "https://images.unsplash.com/photo-1518977676601-b53f02bad675?q=80&w=2670&auto=format&fit=crop"
+  },
+  {
+    "title": "Banana Pancakes",
+    "ingredients": "banana | eggs | oats | baking powder | cinnamon | butter",
+    "servings": "2",
+    "instructions": "Blend banana, eggs, oats, baking powder and cinnamon. Cook small pancakes in butter over medium heat until set and golden.",
+    "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=2670&auto=format&fit=crop"
+  }
+]

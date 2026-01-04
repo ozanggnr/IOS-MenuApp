@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="1" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+    <entity name="Recipe" representedClassName="Recipe">
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date"/>
+        <attribute name="difficulty" optional="YES" attributeType="String"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="ingredients" optional="YES" attributeType="String"/>
+        <attribute name="isFavorite" optional="NO" attributeType="Boolean" defaultValueString="0"/>
+        <attribute name="steps" optional="YES" attributeType="String"/>
+        <attribute name="summaryText" optional="YES" attributeType="String"/>
+        <attribute name="titleText" optional="NO" attributeType="String"/>
+        <attribute name="lastCookedAt" optional="YES" attributeType="Date"/>
+    </entity>
+</model>

@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25B022385D7BCCC3EE90C041 /* Pods_ZaeriGungor_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C09DBDBA2DA8B7F8C5DF6829 /* Pods_ZaeriGungor_Project.framework */; };
+		523847872EF5BCC8008E78CB /* success.json in Resources */ = {isa = PBXBuildFile; fileRef = 523847862EF5BCC8008E78CB /* success.json */; };
+		52A81B4D2EF5A4CC00319D0C /* NetworkingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B4E2EF5A4CC00319D0C /* NetworkingModels.swift */; };
+		52A81B4F2EF5A4CC00319D0C /* RecipeAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B502EF5A4CC00319D0C /* RecipeAPIService.swift */; };
+		52A81B472EF5A4CC00319D0C /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B412EF5A4CC00319D0C /* Recipe.swift */; };
+		52A81B482EF5A4CC00319D0C /* RecipeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B422EF5A4CC00319D0C /* RecipeStore.swift */; };
+		52A81B492EF5A4CC00319D0C /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B3F2EF5A4CC00319D0C /* RecipeListViewController.swift */; };
+		52A81B4A2EF5A4CC00319D0C /* PaletteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B452EF5A4CC00319D0C /* PaletteHelper.swift */; };
+		52A81B4B2EF5A4CC00319D0C /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B3E2EF5A4CC00319D0C /* RecipeDetailViewController.swift */; };
+		52A81B4C2EF5A4CC00319D0C /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A81B442EF5A4CC00319D0C /* Cells.swift */; };
+		52FF53212EF19D00004EC526 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF53012EF19D00004EC526 /* AppDelegate.swift */; };
+		52FF53222EF19D00004EC526 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FF53022EF19D00004EC526 /* SceneDelegate.swift */; };
+		52FF53312EF19D00004EC526 /* Base.lproj/Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF53042EF19D00004EC526 /* Base.lproj/Main.storyboard */; };
+		52FF53322EF19D00004EC526 /* Base.lproj/LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FF53052EF19D00004EC526 /* Base.lproj/LaunchScreen.storyboard */; };
+		52FF53332EF19D00004EC526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FF53062EF19D00004EC526 /* Assets.xcassets */; };
+		52FF53342EF19D00004EC526 /* ZaeriGungor_Project.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 52FF53082EF19D00004EC526 /* ZaeriGungor_Project.xcdatamodeld */; };
+		52FF53452EF19D20004EC526 /* NinjaRecipesSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 52FF53442EF19D20004EC526 /* NinjaRecipesSample.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		416E9204A14DC0C7E42BECC0 /* Pods-ZaeriGungor_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaeriGungor_Project.release.xcconfig"; path = "Target Support Files/Pods-ZaeriGungor_Project/Pods-ZaeriGungor_Project.release.xcconfig"; sourceTree = "<group>"; };
+		523847862EF5BCC8008E78CB /* success.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = success.json; sourceTree = "<group>"; };
+		52A81B3E2EF5A4CC00319D0C /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
+		52A81B4E2EF5A4CC00319D0C /* NetworkingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingModels.swift; sourceTree = "<group>"; };
+		52A81B502EF5A4CC00319D0C /* RecipeAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAPIService.swift; sourceTree = "<group>"; };
+		52A81B3F2EF5A4CC00319D0C /* RecipeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		52A81B412EF5A4CC00319D0C /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		52A81B422EF5A4CC00319D0C /* RecipeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeStore.swift; sourceTree = "<group>"; };
+		52A81B442EF5A4CC00319D0C /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		52A81B452EF5A4CC00319D0C /* PaletteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteHelper.swift; sourceTree = "<group>"; };
+		52FF51CE2EF19CE6004EC526 /* ZaeriGungor_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaeriGungor_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FF53012EF19D00004EC526 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52FF53022EF19D00004EC526 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		52FF53042EF19D00004EC526 /* Base.lproj/Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52FF53052EF19D00004EC526 /* Base.lproj/LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52FF53062EF19D00004EC526 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FF53072EF19D00004EC526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52FF53082EF19D00004EC526 /* ZaeriGungor_Project.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = xcdatamodeld; path = ZaeriGungor_Project.xcdatamodeld; sourceTree = "<group>"; };
+		52FF53442EF19D20004EC526 /* NinjaRecipesSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NinjaRecipesSample.json; sourceTree = "<group>"; };
+		820DC58B0C05A615405B99A2 /* Pods-ZaeriGungor_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZaeriGungor_Project.debug.xcconfig"; path = "Target Support Files/Pods-ZaeriGungor_Project/Pods-ZaeriGungor_Project.debug.xcconfig"; sourceTree = "<group>"; };
+		C09DBDBA2DA8B7F8C5DF6829 /* Pods_ZaeriGungor_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZaeriGungor_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FF51CB2EF19CE6004EC526 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25B022385D7BCCC3EE90C041 /* Pods_ZaeriGungor_Project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4384E0FB69F8959237D44C5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C09DBDBA2DA8B7F8C5DF6829 /* Pods_ZaeriGungor_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52A81B402EF5A4CC00319D0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52A81B3E2EF5A4CC00319D0C /* RecipeDetailViewController.swift */,
+				52A81B3F2EF5A4CC00319D0C /* RecipeListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		52A81B432EF5A4CC00319D0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52A81B412EF5A4CC00319D0C /* Recipe.swift */,
+				52A81B502EF5A4CC00319D0C /* RecipeAPIService.swift */,
+				52A81B4E2EF5A4CC00319D0C /* NetworkingModels.swift */,
+				52A81B422EF5A4CC00319D0C /* RecipeStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		52A81B462EF5A4CC00319D0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52A81B442EF5A4CC00319D0C /* Cells.swift */,
+				52A81B452EF5A4CC00319D0C /* PaletteHelper.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52FF51C52EF19CE6004EC526 = {
+			isa = PBXGroup;
+			children = (
+				523847862EF5BCC8008E78CB /* success.json */,
+				52FF53102EF19D00004EC526 /* ZaeriGungor_Project */,
+				52FF51CF2EF19CE6004EC526 /* Products */,
+				DD827B7DE93CFB3DADCC65D5 /* Pods */,
+				4384E0FB69F8959237D44C5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52FF51CF2EF19CE6004EC526 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FF51CE2EF19CE6004EC526 /* ZaeriGungor_Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FF53102EF19D00004EC526 /* ZaeriGungor_Project */ = {
+			isa = PBXGroup;
+			children = (
+				52A81B402EF5A4CC00319D0C /* Controller */,
+				52A81B432EF5A4CC00319D0C /* Model */,
+				52A81B462EF5A4CC00319D0C /* View */,
+				52FF53012EF19D00004EC526 /* AppDelegate.swift */,
+				52FF53022EF19D00004EC526 /* SceneDelegate.swift */,
+				52FF53442EF19D20004EC526 /* NinjaRecipesSample.json */,
+				52FF53082EF19D00004EC526 /* ZaeriGungor_Project.xcdatamodeld */,
+				52FF53062EF19D00004EC526 /* Assets.xcassets */,
+				52FF53042EF19D00004EC526 /* Base.lproj/Main.storyboard */,
+				52FF53052EF19D00004EC526 /* Base.lproj/LaunchScreen.storyboard */,
+				52FF53072EF19D00004EC526 /* Info.plist */,
+			);
+			path = ZaeriGungor_Project;
+			sourceTree = "<group>";
+		};
+		DD827B7DE93CFB3DADCC65D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				820DC58B0C05A615405B99A2 /* Pods-ZaeriGungor_Project.debug.xcconfig */,
+				416E9204A14DC0C7E42BECC0 /* Pods-ZaeriGungor_Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FF51CD2EF19CE6004EC526 /* ZaeriGungor_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FF51E42EF19CE9004EC526 /* Build configuration list for PBXNativeTarget "ZaeriGungor_Project" */;
+			buildPhases = (
+				D8D8AEE2E91618EC6443A785 /* [CP] Check Pods Manifest.lock */,
+				52FF51CA2EF19CE6004EC526 /* Sources */,
+				52FF51CB2EF19CE6004EC526 /* Frameworks */,
+				52FF51CC2EF19CE6004EC526 /* Resources */,
+				E51BF0777460B9DE80A16238 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZaeriGungor_Project;
+			productName = ZaeriGungor_Project;
+			productReference = 52FF51CE2EF19CE6004EC526 /* ZaeriGungor_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FF51C62EF19CE6004EC526 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					52FF51CD2EF19CE6004EC526 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 52FF51C92EF19CE6004EC526 /* Build configuration list for PBXProject "ZaeriGungor_Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FF51C52EF19CE6004EC526;
+			minimizedProjectReferenceProxies = 1;
+			productRefGroup = 52FF51CF2EF19CE6004EC526 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FF51CD2EF19CE6004EC526 /* ZaeriGungor_Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FF51CC2EF19CE6004EC526 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF53312EF19D00004EC526 /* Base.lproj/Main.storyboard in Resources */,
+				52FF53322EF19D00004EC526 /* Base.lproj/LaunchScreen.storyboard in Resources */,
+				52FF53332EF19D00004EC526 /* Assets.xcassets in Resources */,
+				52FF53342EF19D00004EC526 /* ZaeriGungor_Project.xcdatamodeld in Resources */,
+				52FF53452EF19D20004EC526 /* NinjaRecipesSample.json in Resources */,
+				523847872EF5BCC8008E78CB /* success.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8D8AEE2E91618EC6443A785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZaeriGungor_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E51BF0777460B9DE80A16238 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaeriGungor_Project/Pods-ZaeriGungor_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZaeriGungor_Project/Pods-ZaeriGungor_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZaeriGungor_Project/Pods-ZaeriGungor_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FF51CA2EF19CE6004EC526 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FF53212EF19D00004EC526 /* AppDelegate.swift in Sources */,
+				52FF53222EF19D00004EC526 /* SceneDelegate.swift in Sources */,
+				52A81B472EF5A4CC00319D0C /* Recipe.swift in Sources */,
+				52A81B482EF5A4CC00319D0C /* RecipeStore.swift in Sources */,
+				52A81B4D2EF5A4CC00319D0C /* NetworkingModels.swift in Sources */,
+				52A81B4F2EF5A4CC00319D0C /* RecipeAPIService.swift in Sources */,
+				52A81B492EF5A4CC00319D0C /* RecipeListViewController.swift in Sources */,
+				52A81B4A2EF5A4CC00319D0C /* PaletteHelper.swift in Sources */,
+				52A81B4B2EF5A4CC00319D0C /* RecipeDetailViewController.swift in Sources */,
+				52A81B4C2EF5A4CC00319D0C /* Cells.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52FF51E52EF19CE9004EC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820DC58B0C05A615405B99A2 /* Pods-ZaeriGungor_Project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPW9B33CDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaeriGungor_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctis480.ZaeriGungor-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FF51E62EF19CE9004EC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416E9204A14DC0C7E42BECC0 /* Pods-ZaeriGungor_Project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FPW9B33CDU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZaeriGungor_Project/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ctis480.ZaeriGungor-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52FF51E72EF19CE9004EC526 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = FPW9B33CDU;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FF51E82EF19CE9004EC526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = FPW9B33CDU;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FF51C92EF19CE6004EC526 /* Build configuration list for PBXProject "ZaeriGungor_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF51E72EF19CE9004EC526 /* Debug */,
+				52FF51E82EF19CE9004EC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FF51E42EF19CE9004EC526 /* Build configuration list for PBXNativeTarget "ZaeriGungor_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FF51E52EF19CE9004EC526 /* Debug */,
+				52FF51E62EF19CE9004EC526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FF51C62EF19CE6004EC526 /* Project object */;
+}
